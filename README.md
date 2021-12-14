@@ -14,7 +14,7 @@ Features of this app :
 - Work with features this app access can only for registered drivers
 - In the development we used 3-layered architecture, that means if we need to expand our features It will be easy to implement
 ***
-###Technologies which was used in app :
+### Technologies which was used in app :
 * Apache Tomcat (v9.0.56)
 * Servlet
 * JDBC
@@ -23,7 +23,7 @@ Features of this app :
 * JSTL
 * JSP
 ***
-###Things that we need to do for correct working application:
+### Things that we need to do for correct working application:
 1. Firstly we need to install our additional applications. Such as :
    * Apache Tomcat (v9.0.56)
    * MySQL, MySQL Workbench 8.0
