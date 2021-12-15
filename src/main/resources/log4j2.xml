@@ -4,7 +4,7 @@
         <Console name="LogToConsole" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %c:%L - %msg%n"/>
         </Console>
-        <File name="LogToFile" fileName="Absolute path to file .log">
+        <File name="LogToFile" fileName="Absolute path to file  .log">
             <PatternLayour>
                 <Pattern>%d %p %m%n</Pattern>
             </PatternLayour>
