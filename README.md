@@ -36,17 +36,13 @@ Application is easy to use and very understandable.
 3. Create a schema in MySQL Workbench using file `src/main/resources/init_db.sql`
 
     
-4. In `src/main/java/taxi/util/ConnectionUtil.class` we need to do some changes, and replace with yours :
-    * USERNAME and PASSWORD
-   ```
-   //example
-   private static final String USERNAME = "root";
-   private static final String Password = "qwerty";
-   ```
-    * URL and JDBC_DRIVER
+4. In `src/main/java/mate/util/ConnectionUtil.class` we need to do some changes, and replace with yours :
+    * USERNAME, PASSWORD, URL and JDBC_DRIVER
    ```
      //example
      private static final String URL = "jdbc:mysql://localhost:3306/taxi";
+     private static final String USERNAME = "root";
+     private static final String Password = "qwerty";
      private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
 5. In src/main/resources/log4j2.xml we need to change fileName:
