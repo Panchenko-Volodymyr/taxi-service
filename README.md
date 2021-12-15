@@ -5,6 +5,7 @@ So you need this app!
 
 Taxi Servise help you with organization of your workers and cars.
 Application is easy to use and very understandable.
+
 ![taxi](https://image.freepik.com/free-vector/taxi-on-the-city_1270-526.jpg)
 
 ### Features of this app :
@@ -18,7 +19,7 @@ Application is easy to use and very understandable.
 * Apache Tomcat (v9.0.56)
 * Servlet
 * JDBC
-* MySQL, MySQL Workbench 8.0
+* MySQL
 * HTML, CSS
 * JSTL
 * JSP
@@ -27,18 +28,21 @@ Application is easy to use and very understandable.
 1. Firstly we need to install our additional applications. Such as :
     * Apache Tomcat (v9.0.56)
     * MySQL, MySQL Workbench 8.0
-2. Configure our Tomcat in IDE
-    * Click to Edit/Add configure
-    * Find Tomcat
-    * Click to red bulb
-    * Chose war exploded
-3. Create a schema in MySQL Workbench using file `src/main/resources/init_db.sql`:
-    * Copy all from file
-    * ALERT If you already have database, which named "taxi", this script can drop it.
-    * Paste it in Workbench
-    * Refresh All
-4. In `src/main/java/mate/util/ConnectionUtil.class` we need to do some changes, and replace with yours :
+   
+
+2. Configure Tomcat in IDE
+
+
+3. Create a schema in MySQL Workbench using file `src/main/resources/init_db.sql`
+
+    
+4. In `src/main/java/taxi/util/ConnectionUtil.class` we need to do some changes, and replace with yours :
     * USERNAME and PASSWORD
+   ```
+   //example
+   private static final String USERNAME = "root";
+   private static final String Password = "qwerty";
+   ```
     * URL and JDBC_DRIVER
    ```
      //example
